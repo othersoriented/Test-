@@ -1,0 +1,11 @@
+export const WHEEL_RADIUS = 200;
+export const WHEEL_DIAMETER = WHEEL_RADIUS * 2;
+export const WHEEL_ITEM_COUNT = 8;
+export const WHEEL_ITEM_ANGLE = 360 / WHEEL_ITEM_COUNT;
+export const SPIN_DURATION = 5000;
+export const SPINNING_SPEED = 360 * 3;
+export const SPIN_BUTTON_ID = 'spinButton';
+export const WHEEL_ID = 'wheel';
+export const WHEEL_ITEM_ID = 'wheelItem';
+export const SPIN_COMPLETED = 'spinCompleted';
+export const SPIN_STARTED = 'spinStarted';
